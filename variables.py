@@ -1,0 +1,1 @@
+print ("hello Sam \#") #using the backslash negates the # meaning 

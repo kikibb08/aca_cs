@@ -3,15 +3,15 @@ age = 25
 print (f"{age}")
 first_name = "Kyriaki"
 last_name = "Baker"
-print (f"{first_name}")
+print (first_name)
 print (f"{last_name}")
 x = 10 
 y = 5
-print (10+5)
-print (10-5)
-print (10*5)
-print (10/5)
-temp = 72
+print (x+y)
+print (x-y)
+print (x*y)
+print (x/y)
+temp =72
 if temp > 65:
     print("greater than 65")
 else:
@@ -45,4 +45,45 @@ print(f"{name}is {age} years old")
 price = 19.99
 quantity = 3
 print(f"Total cost: ${price*quantity}")
-
+radius = 5
+area = (2 ** radius) * 3.14
+print(f"the area is {area}")
+celsius = 25
+fahrenheit = ( celsius * 9/5 +32)
+print(f"{celsius}C is {fahrenheit}F")
+a = 15
+b = 4
+c = 2
+print(a+(b*c))
+print((a+b)*c)
+is_weekend = True
+is_sunny = True 
+print(f"Is it the weekend? : {is_weekend}")
+print(f"Is it sunny outside? : {is_sunny}")
+print("should i go to the beach? Yes!")
+age = 16
+has_license = True
+if age == 16 and has_license == True:
+    print("You can drive!")
+hour = 14
+if hour < 12 or hour:
+    print("It is morning!")
+if hour >= 12 or hour < 18:
+    print("It is afternoon!")
+password = "secret123"
+confirm = "secret123"
+length = len(password)
+if password == confirm:
+    print(f"the passwords match and {length}")
+x = 7
+y = 14
+z = 21
+if x % y == 0 and x % y == 0: 
+    print(f"{x} is even")
+else:
+    print(f"{x} is odd")
+name = "Jordan"
+grade = 88
+is_passing = grade>= 60 
+improvement =  12
+print(f"Student {name} scored {grade}, passing:{is_passing}, with {improvement} points improvement")
